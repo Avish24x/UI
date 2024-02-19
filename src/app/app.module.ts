@@ -26,7 +26,7 @@ import { AnalyticsComponent } from './components/analytics/analytics.component';
 import { AnalyticsChartsComponent } from './components/analytics-charts/analytics-charts.component';
 
 import { FinanceComponent } from './components/finance/finance.component';
-import { EventsComponent } from './components/events/events.component';
+
 import { GroupLeadersComponent } from './components/group-leaders/group-leaders.component';
 import { LogoutComponent } from './components/logout/logout.component';
 import { MyprofileComponent } from './components/myprofile/myprofile.component';
@@ -35,6 +35,8 @@ import { SearchBarComponent } from './components/search-bar/search-bar.component
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { TeamLeadersComponent } from './components/team-leaders/team-leaders.component';
 import { ForgetpasswordComponent } from './components/forgetpassword/forgetpassword.component';
+import { EventsComponent } from './components/events/events.component';
+import { EventRegistrationComponent } from './components/event-registration/event-registration.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,9 @@ import { ForgetpasswordComponent } from './components/forgetpassword/forgetpassw
     AnalyticsComponent,
     AnalyticsChartsComponent,
     FinanceComponent,
+    SearchBarComponent,
     
+
     GroupLeadersComponent,
           LogoutComponent,
           MyprofileComponent,
@@ -54,6 +58,7 @@ import { ForgetpasswordComponent } from './components/forgetpassword/forgetpassw
           SignUpComponent,
           TeamLeadersComponent,
           ForgetpasswordComponent,
+          EventRegistrationComponent,
   ],
   imports: [
     SdwdsHeaderComponent,
@@ -85,6 +90,7 @@ import { ForgetpasswordComponent } from './components/forgetpassword/forgetpassw
     SdwdsHeaderProfileSelectComponent,
     SdwdsHeaderProfileListComponent,
     NgbDropdownModule,
+    EventsComponent,
     EventsComponent,
     JwtModule.forRoot({
       config: {

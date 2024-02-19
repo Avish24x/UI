@@ -12,6 +12,9 @@ import { GroupLeadersComponent } from './components/group-leaders/group-leaders.
 import { TeamLeadersComponent } from './components/team-leaders/team-leaders.component';
 import { ForgetpasswordComponent } from './components/forgetpassword/forgetpassword.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
+import { SidebarComponent } from './components/shared/sidebar/sidebar.component';
+import { SearchBarComponent } from './components/search-bar/search-bar.component';
+import { EventRegistrationComponent } from './components/event-registration/event-registration.component';
 
 // import { AnalyticsChartsComponent } from './components/analytics-charts/analytics-charts.component';
 
@@ -30,6 +33,8 @@ const routes: Routes = [
   { path: 'team-leaders', component: TeamLeadersComponent},
   { path: 'forgetpassword', component: ForgetpasswordComponent},
   { path: 'sign-up', component: SignUpComponent},
+  { path: 'sidebar', component: SidebarComponent},
+  { path: 'event-registration', component: EventRegistrationComponent},
 
 
 
