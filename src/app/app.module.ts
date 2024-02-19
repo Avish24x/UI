@@ -34,6 +34,7 @@ import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.co
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { TeamLeadersComponent } from './components/team-leaders/team-leaders.component';
+import { ForgetpasswordComponent } from './components/forgetpassword/forgetpassword.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +53,7 @@ import { TeamLeadersComponent } from './components/team-leaders/team-leaders.com
           SearchBarComponent,
           SignUpComponent,
           TeamLeadersComponent,
+          ForgetpasswordComponent,
   ],
   imports: [
     SdwdsHeaderComponent,

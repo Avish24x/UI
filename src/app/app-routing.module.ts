@@ -10,6 +10,9 @@ import { AnalyticsComponent } from './components/analytics/analytics.component';
 import { EventsComponent } from './components/events/events.component';
 import { GroupLeadersComponent } from './components/group-leaders/group-leaders.component';
 import { TeamLeadersComponent } from './components/team-leaders/team-leaders.component';
+import { ForgetpasswordComponent } from './components/forgetpassword/forgetpassword.component';
+import { SignUpComponent } from './components/sign-up/sign-up.component';
+
 // import { AnalyticsChartsComponent } from './components/analytics-charts/analytics-charts.component';
 
 
@@ -25,6 +28,10 @@ const routes: Routes = [
   { path: 'events', component: EventsComponent },
   { path: 'group-leaders', component: GroupLeadersComponent },
   { path: 'team-leaders', component: TeamLeadersComponent},
+  { path: 'forgetpassword', component: ForgetpasswordComponent},
+  { path: 'sign-up', component: SignUpComponent},
+
+
 
 
   { path: '**', redirectTo: '', pathMatch: 'full' },
